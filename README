@@ -1,0 +1,122 @@
+# 📊 Global Electronics Retail — Executive Analytics & Decision Intelligence (Power BI)
+
+## 🔍 Executive Overview
+
+This repository showcases a **production-grade Power BI analytics solution** for a **global omnichannel electronics retailer**.  
+The project is designed to support **executive decision-making**, **commercial strategy**, and **operational optimization** through a robust **dimensional data model** and **insight-driven dashboards**.
+
+Rather than focusing only on descriptive reporting, the solution emphasizes:
+- Performance diagnostics  
+- Growth vs. efficiency trade-offs  
+- Actionable business insights  
+
+> **Key Executive Insight:**  
+> *Average Order Value declined by 6.2% YoY despite 43% revenue growth — indicating basket dilution and cross-sell inefficiencies.*
+
+---
+
+## 🎯 Business Questions Addressed
+
+- Where is revenue growth coming from — **volume, pricing, or mix**?
+- Are customer gains **sustainable** or driven by short-term acquisition?
+- Which categories and brands **drive margin vs. dilute profitability**?
+- Which physical stores deliver the **highest productivity per square meter**?
+- How does **online vs. offline performance** vary by geography?
+
+---
+
+## 🏗️ Analytical Data Model
+
+The solution is built on a **star schema** to ensure scalability, performance, and consistent KPI definitions.
+
+### ⭐ Fact Table
+**Sales**
+- Order- and line-item-level transactions  
+- Composite business keys for uniqueness  
+- Multi-currency support via exchange rate normalization  
+
+### 📘 Dimension Tables
+- **Customers** — demographics, geography, age derivation  
+- **Products** — category → subcategory → brand hierarchy  
+- **Stores** — location, footprint, open date  
+- **Exchange Rates** — currency normalization vs USD  
+- **DimDate** — complete calendar for time intelligence  
+
+---
+
+## 📈 Dashboard Coverage
+
+### 1️⃣ Executive Performance Overview
+- Total Sales, Profit, Profit Margin
+- Customer Count & Average Order Value
+- Year-over-Year growth benchmarking
+- Channel, category, geography, and demographic splits
+- Automated executive insight callout
+
+### 2️⃣ Customer Growth & Retention Analysis
+- New vs recurring customers
+- Monthly retention trends
+- Acquisition quality by category and country
+- Age-band contribution analysis
+
+### 3️⃣ Store Performance & Productivity
+- Sales and profit by store
+- Sales per square meter & profit per square meter
+- Cumulative performance since store opening
+- Cross-store and cross-country benchmarking
+
+### 4️⃣ Product, Category & Brand Performance
+- Category and subcategory contribution
+- Brand-level sales and growth comparison
+- Cost vs profit visibility
+- Online vs offline channel mix
+
+---
+
+## 📊 Core KPIs
+
+- Total Sales | Total Cost | Total Profit  
+- Profit Margin %  
+- Average Order Value (AOV)  
+- Customer Count (New vs Recurring)  
+- Sales per Sq. Meter  
+- Profit per Sq. Meter  
+- Year-over-Year Growth %  
+- Channel Mix (Online vs Offline)
+
+All KPIs are **centrally defined using DAX** to ensure consistency.
+
+---
+
+## 🧠 Analytical Techniques
+
+- Advanced DAX time intelligence (YoY, prior-year comparisons)
+- Age-at-order calculations using customer birthdate
+- Currency normalization using exchange rate dimension
+- Productivity density metrics (per Sq. Meter)
+- Insight-driven KPI commentary
+
+---
+
+## 🛠️ Technology Stack
+
+- **Power BI Desktop**
+- **DAX**
+- **Power Query (M)**
+- **Star Schema Dimensional Modeling**
+- CSV-based structured datasets
+
+---
+
+## 🚀 Key Insights
+
+- Revenue growth exceeding **40% YoY**
+- **AOV declined 6.2% YoY**, signaling basket fragmentation
+- Computers and Home Appliances dominate category sales
+- Online channel contributes ~**68% of total revenue**
+- Significant variance in store productivity highlights optimization opportunities
+
+---
+
+
+
