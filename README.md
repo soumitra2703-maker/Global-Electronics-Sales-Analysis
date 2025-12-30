@@ -130,6 +130,4 @@ This repository is intended to demonstrate:
 - Scalable data modeling best practices  
 - Business-focused KPI interpretation  
 
-Ideal for **Senior Analyst**, **Business Intelligence**, and **Analytics Consulting** roles.
-
 ---
